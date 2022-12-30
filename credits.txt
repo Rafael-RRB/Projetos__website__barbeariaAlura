@@ -1,0 +1,9 @@
+Fonts:
+	Open Sans designed by Steve Matteson, Type Director of Ascender Corp.
+	Source: https://fonts.google.com/specimen/Open+Sans#glyphs
+
+Images:
+
+Others:
+	Alura, for providing a way to quickly and effectively learn about programming.
+	Source: https://www.alura.com.br/

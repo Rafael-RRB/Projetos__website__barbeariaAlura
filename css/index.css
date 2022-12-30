@@ -1,0 +1,327 @@
+/* Normal */
+@font-face {
+	font-family: openSans;
+	src: url("../font/OpenSans-Regular.ttf");
+}
+/* Semi-Negrito */
+@font-face {
+	font-family: openSans;
+	src: url("../font/OpenSans-SemiBold.ttf");
+	font-weight: bold;
+}
+/* Negrito */
+@font-face {
+	font-family: openSans;
+	src: url("../font/OpenSans-ExtraBold.ttf");
+	font-weight: heavy;
+}
+/* Itálico */
+@font-face {
+	font-family: openSans;
+	src: url("../font/OpenSans-Italic.ttf");
+	font-style: italic;
+}
+/* Semi-Negrito e Itálico*/
+@font-face {
+	font-family: openSans;
+	src: url("../font/OpenSans-SemiBoldItalic.ttf");
+	font-weight: bold;
+	font-style: italic;
+}
+/* Negrito e Itálico*/
+@font-face {
+	font-family: openSans;
+	src: url("../font/OpenSans-ExtraBoldItalic.ttf");
+	font-weight: heavy;
+	font-style: italic;
+}
+
+
+#imagemLogoHeader {
+	width: 8em;
+	height: 11.30em;
+	image-rendering: crisp-edges;
+}
+#imagemLogoFooter {
+	width: 8em;
+	height: 11.30em;
+	display: block;
+	margin: 0em auto;
+}
+
+#imagemBannerMain {
+	width: 100%;
+	display: inline-block;
+	margin-bottom: -0.125em;
+	filter: blur(4px);
+	transition: 300ms;
+}
+#imagemBannerMain:hover {
+	filter: blur(0px);
+}
+
+
+#imagemSobreMain {
+	width: 7.5em;
+	height: 7.5em;
+	margin: 0% 7.5% 0% 7.5%;
+	float: left;
+	border: 0.25em solid #ffffff;
+	border-radius: 2.5em;
+}
+#mapaLocalizacao {
+	width: 50%;
+	height: 30em;
+	margin: 0% auto;
+	display: block;
+	box-shadow: 0.25em 0.5em 1em 0em #000000;
+}
+
+#imagemBeneficiosMain {
+	position: relative;
+	width: 98%;
+	height: 98%;
+	filter: blur(4px);
+	transition: 300ms;
+	border: 0.5em solid #2A7AE4;
+	border-radius: 5em;
+}
+#imagemBeneficiosMain:hover {
+	filter: blur(0px);
+}
+
+#mainVideo {
+	width: 48%;
+	height: 23em;
+	border: 0.5em solid #2A7AE4;
+	border-radius: 2.5em;
+	margin: 0% auto 1% auto;
+	display: block;
+}
+
+/* Classes Repetidas */ 
+.titulos {
+	background: linear-gradient(#093364 0%, #000000);
+	color: #ffffff;
+	padding: 1em 0em 1em 2em;
+	font-size: 1.5em;
+	font-weight: 900;
+	text-align: left;
+	text-transform: uppercase;
+	text-shadow: 0.1em 0.1em 0.1em #000000;
+}
+
+.titulos:before {
+	content: "[ ";
+}
+.titulos:after {
+	content: " ]";
+}
+
+
+
+.divPadrao {
+	width: 98%;
+	padding: 1%;
+}
+.pRegular {
+	font-weight: normal;
+	font-style: normal;
+	margin: 1% 0%;
+}
+.pBold {
+	font-weight: 900;
+	margin: 1% 0%;
+}
+.pItalic {
+	font-style: italic;
+	margin: 1% 0%;
+}
+.pBoldItalic {
+	font-weight: 900;
+	font-style: italic;
+	margin: 1% 0%;
+}
+
+.divHeader {
+	width: 39%;
+	height: 11.1em;
+	text-align: center;
+	vertical-align: top;
+	display: inline-block;
+}
+.navHeaderMenu {
+	width: 58.5%;
+	height: 11em;
+	text-align: center;
+	vertical-align: top;
+	display: inline-block;
+}
+.navHeaderMenu>ul {
+	margin: 5.05em 0 0 0;
+}
+
+
+.liHeader {
+	width: auto;
+	margin: auto 0.5em;
+	display: inline-block;
+	font-size: 1.5em;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.sectionHeaderSubtitulo {
+	width: 100%;
+	height: 4.375em;
+	background: #093364;
+	display: block;
+	text-transform: uppercase;
+}
+.pHeaderSubtitulo {
+	height: 1.5em;
+	padding-top: 1em;
+	margin-left: 1em;
+	font-size: 1.5em;
+	font-weight: 900;
+	text-align: left;
+}
+.sectionCaixa {
+	text-align: justify;
+	background: #2A7AE4;
+	color: #ffffff;
+}
+.divSobreBarbearia {
+	width: 88%;
+	padding: 1%;
+}
+.divLocalizacao {
+	width: 98%;
+	padding: 1%;
+}
+
+.mainContainer {
+	color: #ffffff;
+	width: 80%;
+	height: 45em;
+	margin: 0% auto;
+	padding: 1%;
+}
+.mainLiBeneficios {
+	position: relative;
+	top: -15.5em;
+	left: 1em;
+	text-transform: uppercase;
+	font-size: 2em;
+	font-style: italic;
+	font-weight: 900;
+	padding: 0.5%;
+}
+.mainLiBeneficios:first-child {
+	text-decoration: underline;
+}
+.mainLiBeneficios:before {
+	content: "⇒ ";
+}
+
+.mainPTitle {
+	color: #ffffff;
+	background: #093364;
+	height: 1.5em;
+	padding: 1em 1em 0.5em 1em;
+	font-size: 1.5em;
+	font-weight: 900;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.pFooterCopyright {
+	font-size: 0.75em;
+	margin: 0.1em;
+}
+
+
+body {
+	font-family: openSans;
+	font-size: 1em;
+	font-style: normal;
+	color: #ffffff;
+	text-shadow: 0.1em 0.1em 0.1em #000000;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+a:hover {
+	color: #2A7AE4;
+	text-decoration: underline;
+}
+
+header {
+	border-top: 0.25em solid #2A7AE4;
+	background: #051932;
+	color: #ffffff;
+	width: 100%;
+}
+main {
+	color: #000000;
+}
+footer{
+	width: 98%;
+	background: #051932 no-repeat center / cover;
+	text-align: center;
+	padding: 1%;
+	font-weight: normal;
+}
+
+@media screen and (max-width: 428px) {
+	.navHeaderMenu>ul {
+		margin: 3.36em 0 0 0;
+	}
+
+	.titulos {
+		padding: 1em 0em 1em 1em;
+	}
+
+	p {
+		padding-left: 1em;
+	}
+
+	.divLocalizacao {
+		width: 100%;
+		padding: 0;
+		margin: 0;
+		box-sizing: border-box;
+	}
+
+	#mapaLocalizacao {
+		width: 100%;
+	}
+
+	.mainContainer {
+		width: 100%;
+		max-width: 428px;
+		height: 30em;
+		max-height: 285px;
+		margin: 0;
+		box-sizing: border-box;
+	}
+
+	#imagemBeneficiosMain {
+		box-sizing: border-box;
+	}
+
+	#mainBeneficios {
+		overflow: hidden;
+	}
+
+	.mainLiBeneficios {
+		font-size: 1em;
+		top: -12em;
+	}
+
+	#mainVideo {
+		width: 100%;
+		box-sizing: border-box;
+	}
+}

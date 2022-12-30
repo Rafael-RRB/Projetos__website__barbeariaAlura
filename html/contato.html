@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	
+	<head>
+		<link rel="stylesheet" href="../css/resetstyle.css">
+		<link rel="stylesheet" href="../css/contato.css">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale= 1.0">
+		<title>Contato</title>
+	</head>
+	
+	<body>
+		<header>
+			<section style="padding: 1em">
+				<div class="divHeader">
+					<img id="imagemLogoHeader" src="../img/logo_branco-barbearia.png" alt="Logo Branco da Barbearia Alura">
+				</div>
+				<nav class="navHeaderMenu">
+					<ul>
+						<li class="liHeader"><a href="../index.html">home</a></li>
+						<li class="liHeader"><a href="produtos.html">produtos</a></li>
+						<li class="liHeader"><a href="contato.html">contato</a></li>
+					</ul>
+				</nav>
+			</section>
+		</header>
+		
+		<main>
+			<form>
+				<ul>
+					<fieldset>
+						<label for="inputNomeSobrenome" id="labelNomeSobrenome">nome e sobrenome</label>
+						<input type="text" id="inputNomeSobrenome" required placeholder="Ex.: José Silva"></input>
+						
+						<label for="inputEmail" id="labelEmail">email</label>
+						<input type="email" id="inputEmail" required placeholder="seuemail@domínio.com"></input>
+						
+						<label for="inputTelefone" id="labelTelefone">telefone</label>
+						<input type="tel" id="inputTelefone" required placeholder="(DDD) 00000-0000"></input>
+						
+						<label for="textareaMensagem" id="labelMensagem">sua mensagem</label>
+						<textarea id="textareaMensagem" required placeholder="Digite sua mensagem aqui..."></textarea>
+					</fieldset>
+					
+					<fieldset>
+						<ul>
+							<legend style="padding: 1%; margin-left: 3%">como prefere o nosso contato?</legend>
+							<li>
+								<input class="inputRadio" type="radio" name="contato" value="email" id="inputRadioEmail"></input>
+								<label class="inputRadioLabel" for="inputRadioEmail">email</label>
+							</li>
+							<li>
+								<input class="inputRadio" type="radio" name="contato" value="ligacao" id="inputRadioLigacao"></input>
+								<label class="inputRadioLabel" for="inputRadioLigacao">ligação</label>
+							</li>
+							<li>
+								<input class="inputRadio" type="radio" name="contato" value="whatsapp" id="inputRadioWhatsapp" checked></input>
+								<label class="inputRadioLabel" for="inputRadioWhatsapp">whatsapp</label>
+							</li>
+							<li>
+								<input class="inputRadio" type="radio" name="contato" value="telegram" id="inputRadioTelegram"></input>
+								<label class="inputRadioLabel" for="inputRadioTelegram">telegram</label>
+							</li>
+						</ul>
+					</fieldset>
+					
+					<fieldset>
+						<legend style="padding: 1%; margin-left: 3%">que horário prefere ser atendido?</legend>
+						<select>
+							<option>de manhã, das 08:00 até 12:00</option>
+							<option>a tarde, das 13:00 até 17:00</option>
+							<option>de noite, das 18:00 até 22:00</option>
+						</select>
+					</fieldset>
+					
+					<div class="espacoSimples">
+						<label><input type="checkbox" checked>gostaria de receber nossas novidades por e-mail?</input></label>
+					</div>
+					<input type="submit" id="submitInputA" value="Enviar Formulário"></input>
+				</ul>
+			</form>
+			
+			<table>
+				<thead>
+					<tr class="trStyle">
+						<th class="tStyle">dia</th>
+						<th class="tStyle">horário</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr class="trStyle">
+						<td class="tStyle">segunda á sexta</td>
+						<td class="tStyle">08:00 ~ 22:00</td>
+					</tr>
+				</tbody>
+				<tfoot>
+					<tr class="trStyle">
+						<td class="tStyle">finais de semana</td>
+						<td class="tStyle">12:00 ~ 16:00</td>
+					</tr>
+				</tfoot>
+			</table>
+		</main>
+		
+		<footer>
+			<img id="imagemFooter" src="../img/logo_branco-barbearia.png" alt="logo branco da barberia, rodapé">
+			<p>&copy; copyright Rafael R.B. - 2022<br>estudos HTML5 através da Alura</p>
+		</footer>
+	</body>
+	
+</html>
